@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel>
+		<properties/>
+		<struct>
+			<and mandatory="true" name="Language Workbench">
+				<and mandatory="true" name="Workbench-Level">
+					<and name="Meta-LWB">
+						<feature mandatory="true" name="Bootstrapped"/>
+					</and>
+					<and name="Customizable">
+						<feature name="Stand-alone"/>
+					</and>
+					<feature name="Restricted"/>
+					<and name="Programmable">
+						<feature name="Scriptable"/>
+						<feature name="REPL-supporting"/>
+					</and>
+					<feature name="Hosted"/>
+					<feature name="ad hoc"/>
+					<feature name="Front-end"/>
+				</and>
+				<and mandatory="true" name="Meta-Definitions">
+					<feature name=" Relationships"/>
+					<feature name="Generic"/>
+					<feature name="Lattice-theoretic operations"/>
+					<feature name="Object-oriented"/>
+					<feature name="Algebraic"/>
+				</and>
+				<and name="Meta-Modifications">
+					<feature name="Custom operations"/>
+					<feature name="Morphisms"/>
+					<feature name="Derived definitions"/>
+					<feature name="AOP-based"/>
+				</and>
+				<and name="Meta-Process">
+					<feature name="Meta-reflection"/>
+					<feature name="Querying definitions"/>
+					<feature name="Specification of language definition process"/>
+					<feature name="Import/export"/>
+				</and>
+				<and mandatory="true" name="Mogram-Level">
+					<feature name="Sample generation"/>
+					<feature name="Transformations"/>
+					<feature name="Feedback-loop"/>
+				</and>
+			</and>
+		</struct>
+		<constraints/>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>
